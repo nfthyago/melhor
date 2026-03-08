@@ -1,0 +1,6 @@
+node_modules
+dist
+.git
+database.db
+database.sqlite
+.env
