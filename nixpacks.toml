@@ -1,0 +1,6 @@
+[phases.setup]
+nixPkgs = ["nodejs", "python3", "gcc", "gnumake", "pkg-config"]
+
+[phases.build]
+dependsOn = ["setup"]
+cmds = ["npm run build"]
